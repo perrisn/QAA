@@ -22,24 +22,24 @@ ml
 
 ### Running FastQC:
 1_2A_control samples: 
-fastqc -o fastqc_output/1a_R1 /projects/bgmp/shared/2017_sequencing/demultiplexed/1_2A_control_S1_L008_R1_001.fastq.gz
-1 CPU alloted
-Percent of CPU this job got: 96%
-Elapsed (wall clock) time (h:mm:ss or m:ss): 0:48.80
-fastqc -o fastqc_output/1a_R1 /projects/bgmp/shared/2017_sequencing/demultiplexed/1_2A_control_S1_L008_R2_001.fastq.gz
-1 CPU alloted
-Percent of CPU this job got: 98%
-Elapsed (wall clock) time (h:mm:ss or m:ss): 0:49.51
+fastqc -o fastqc_output/1a_R1 /projects/bgmp/shared/2017_sequencing/demultiplexed/1_2A_control_S1_L008_R1_001.fastq.gz \n
+1 CPU alloted \n
+Percent of CPU this job got: 96% \n
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:48.80 \n
+fastqc -o fastqc_output/1a_R1 /projects/bgmp/shared/2017_sequencing/demultiplexed/1_2A_control_S1_L008_R2_001.fastq.gz \n
+1 CPU alloted \n
+Percent of CPU this job got: 98% \n
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:49.51 \n
 
 17_3E_fox samples: 
-fastqc -o fastqc_output/1a_R1 /projects/bgmp/shared/2017_sequencing/demultiplexed/17_3E_fox_S13_L008_R1_001.fastq.gz
-1 CPU alloted
-Percent of CPU this job got: 99%
-Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.44
-fastqc -o fastqc_output/1a_R1 /projects/bgmp/shared/2017_sequencing/demultiplexed/17_3E_fox_S13_L008_R2_001.fastq.gz
-1 CPU alloted
-Percent of CPU this job got: 98%
-Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.93
+fastqc -o fastqc_output/1a_R1 /projects/bgmp/shared/2017_sequencing/demultiplexed/17_3E_fox_S13_L008_R1_001.fastq.gz \n
+1 CPU alloted \n
+Percent of CPU this job got: 99% \n
+Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.44 \n
+fastqc -o fastqc_output/1a_R1 /projects/bgmp/shared/2017_sequencing/demultiplexed/17_3E_fox_S13_L008_R2_001.fastq.gz \n
+1 CPU alloted \n
+Percent of CPU this job got: 98% \n
+Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.93 \n
 
 ### Running python script from demultiplexing 
 1_2A_control samples:
