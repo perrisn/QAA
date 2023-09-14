@@ -1,0 +1,30 @@
+	/projects/bgmp/perrisn/miniconda3/envs/QAA/bin/STAR-avx2 --runThreadN 8 --runMode alignReads --outFilterMultimapNmax 3 --outSAMunmapped Within KeepPairs --alignIntronMax 1000000 --alignMatesGapMax 1000000 --readFilesCommand zcat --readFilesIn /projects/bgmp/perrisn/bioinfo/Bi623/QAA/trimmed_data/1_2a_trim_forward_paired.fq.gz /projects/bgmp/perrisn/bioinfo/Bi623/QAA/trimmed_data/1_2a_reverse_paired.fq.gz --genomeDir /projects/bgmp/perrisn/bioinfo/Bi623/QAA/Mus_musculus.GRCm39.dna.ens110.STAR_2.7.10b/ --outFileNamePrefix alignment_file_1_2a
+	STAR version: 2.7.10b   compiled: 2023-05-25T06:56:23+0000 :/opt/conda/conda-bld/star_1684997536154/work/source
+Sep 12 15:45:46 ..... started STAR run
+Sep 12 15:45:46 ..... loading genome
+Sep 12 15:46:32 ..... started mapping
+Sep 12 15:47:37 ..... finished mapping
+Sep 12 15:47:38 ..... finished successfully
+	Command being timed: "STAR --runThreadN 8 --runMode alignReads --outFilterMultimapNmax 3 --outSAMunmapped Within KeepPairs --alignIntronMax 1000000 --alignMatesGapMax 1000000 --readFilesCommand zcat --readFilesIn /projects/bgmp/perrisn/bioinfo/Bi623/QAA/trimmed_data/1_2a_trim_forward_paired.fq.gz /projects/bgmp/perrisn/bioinfo/Bi623/QAA/trimmed_data/1_2a_reverse_paired.fq.gz --genomeDir /projects/bgmp/perrisn/bioinfo/Bi623/QAA/Mus_musculus.GRCm39.dna.ens110.STAR_2.7.10b/ --outFileNamePrefix alignment_file_1_2a"
+	User time (seconds): 461.43
+	System time (seconds): 10.65
+	Percent of CPU this job got: 420%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:52.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 27411776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 155713
+	Voluntary context switches: 55795
+	Involuntary context switches: 759
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
