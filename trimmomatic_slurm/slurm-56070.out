@@ -1,0 +1,6 @@
+TrimmomaticPE: Started with arguments:
+ /projects/bgmp/perrisn/bioinfo/Bi623/QAA/1_2A_R1.fastq.gz /projects/bgmp/perrisn/bioinfo/Bi623/QAA/1_2A_R2.fastq.gz 1_2a_trim_forward_paired.fq.gz 1_2a_forward_unpaired.fq.gz 1_2a_reverse_paired.fq.gz 1_2a_reverse_unpaired.fq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:5:15 MINLEN:35
+Multiple cores found: Using 4 threads
+Quality encoding detected as phred33
+Input Read Pairs: 8477859 Both Surviving: 7966343 (93.97%) Forward Only Surviving: 500642 (5.91%) Reverse Only Surviving: 5482 (0.06%) Dropped: 5392 (0.06%)
+TrimmomaticPE: Completed successfully
