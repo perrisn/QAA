@@ -1,5 +1,7 @@
 # QAA Lab Notebook 
 
+NOTE: In order to make the data more readable in GitHub, some file paths were changed after completion of the assignment. Any pathways noted in this lab notebook were current at time of running. 
+
 ## Part 1
 ### File paths: 
 Full file pathway for four files on Talapas: 
